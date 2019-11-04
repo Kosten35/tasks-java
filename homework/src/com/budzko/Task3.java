@@ -1,8 +1,21 @@
 package com.budzko;
 
+//....Выводит заданное количество чисел с переходом на новую строку и без...////////
+
 import java.util.Random;
 import java.util.Scanner;
+public  class Task3 {
 
+    public static void main(String[] args) {
+        RandomNumbers numb = new RandomNumbers();
+        numb.setN();
+        numb.getN();                                    //RandomNumbers
+        numb.setArrayN(numb.getN());
+        numb.showArray();
+        numb.showArrayLn();
+
+    }
+}
  class RandomNumbers {
      Scanner in = new Scanner(System.in);
      Random random = new Random();

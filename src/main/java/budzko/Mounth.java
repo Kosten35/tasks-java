@@ -1,4 +1,4 @@
-package com.budzko;
+package budzko;
 
 import java.util.FormatterClosedException;
 import java.util.NoSuchElementException;

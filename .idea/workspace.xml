@@ -1,64 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="518d016a-8e4a-4b44-aa05-466af51e0e28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks-java/homework/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks-java/homework/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks-java/homework/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks-java/homework/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks-java/homework/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks-java/homework/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks-java/homework/.idea/shelf/Default_Changelist.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks-java/homework/.idea/shelf/Default_Changelist/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks-java/homework/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks-java/homework/homework.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks-java/homework/out/production/homework/META-INF/homework.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks-java/homework/src/com/budzko/Argument.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks-java/homework/src/com/budzko/Hello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks-java/homework/src/com/budzko/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks-java/homework/src/com/budzko/Mounth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks-java/homework/src/com/budzko/SumArgum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasks-java/homework/src/com/budzko/Task3.java" beforeDir="false" />
-    </list>
+    <list default="true" id="824d5c39-918e-4fa6-b751-c2fdce39b053" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="214" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="homework" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
-        <option value="C:\data\Homework\tasks-java\homework\.idea" />
+        <option value="C:\data\Homework\task-java\.idea" />
       </set>
     </option>
   </component>
-  <component name="ProjectId" id="1T7cJiALOZIcFRLQXEfYngA5GCJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="1TZ8QEet6vgW0vc0hXQ7cIBl9ca" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
@@ -74,10 +38,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SumArgum">
+  <component name="RunManager" selected="Application.Hello">
+    <configuration name="Argument (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="budzko.Argument" />
+      <module name="task-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="budzko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Argument" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.budzko.Argument" />
-      <module name="homework" />
+      <module name="task-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.budzko.*" />
@@ -90,7 +67,7 @@
     </configuration>
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.budzko.Hello" />
-      <module name="homework" />
+      <module name="task-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.budzko.*" />
@@ -103,7 +80,7 @@
     </configuration>
     <configuration name="Mounth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.budzko.Mounth" />
-      <module name="homework" />
+      <module name="task-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.budzko.*" />
@@ -116,7 +93,7 @@
     </configuration>
     <configuration name="SumArgum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.budzko.SumArgum" />
-      <module name="homework" />
+      <module name="task-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.budzko.*" />
@@ -127,33 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.budzko.Task3" />
-      <module name="homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.budzko.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Task3" />
-      <item itemvalue="Application.Argument" />
-      <item itemvalue="Application.Hello" />
-      <item itemvalue="Application.SumArgum" />
-      <item itemvalue="Application.Mounth" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SumArgum" />
-        <item itemvalue="Application.Argument" />
-        <item itemvalue="Application.Mounth" />
-        <item itemvalue="Application.Task3" />
         <item itemvalue="Application.Hello" />
+        <item itemvalue="Application.Mounth" />
+        <item itemvalue="Application.SumArgum" />
+        <item itemvalue="Application.Argument (1)" />
+        <item itemvalue="Application.Argument" />
       </list>
     </recent_temporary>
   </component>
@@ -162,11 +119,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="518d016a-8e4a-4b44-aa05-466af51e0e28" name="Default Changelist" comment="" />
-      <created>1572814504288</created>
+      <changelist id="824d5c39-918e-4fa6-b751-c2fdce39b053" name="Default Changelist" comment="" />
+      <created>1573656238421</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572814504288</updated>
+      <updated>1573656238421</updated>
     </task>
     <servers />
   </component>
@@ -175,9 +132,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -187,10 +142,5 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/homework$TaskJavaFundamentals.ic" NAME="TaskJavaFundamentals Coverage Results" MODIFIED="1572850568257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.budzko.*</FILTER>
-    </SUITE>
   </component>
 </project>

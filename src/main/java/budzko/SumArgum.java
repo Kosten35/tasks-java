@@ -1,4 +1,4 @@
-package com.budzko;
+package budzko;
 
 public class SumArgum {
     public static void main (String[] args){

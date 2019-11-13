@@ -1,4 +1,4 @@
-package com.budzko;
+package budzko;
 
 public class Argument {
     public static void main(String[] args) {

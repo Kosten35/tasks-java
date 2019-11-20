@@ -72,8 +72,7 @@ public class OptionalTask {
         System.out.println("Числа по возрастанию их длины");
         for (int i = 0; i < n ; i++) {
             System.out.println(numb[i]);
-            for (int j = numb[i].length(); j < maxLength + 2; j++) System.out.print(".");
-            System.out.println("длина = " + numb[i].length());
+
         }
 
 

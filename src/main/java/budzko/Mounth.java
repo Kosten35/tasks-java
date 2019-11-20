@@ -53,6 +53,7 @@ public class Mounth {
                         System.err.println("You input invalid number. Need enter number from 1 to 12.");
                         break;
                 }
+                in.close();
             }   catch (FormatterClosedException exp) {
                  System.out.println(exp);
             }

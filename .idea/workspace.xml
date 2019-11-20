@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="824d5c39-918e-4fa6-b751-c2fdce39b053" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/budzko/OptionalTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/budzko/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/budzko/Mounth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/budzko/Mounth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/task-java.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JavaFXApplication" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,7 +54,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Hello (1)">
+  <component name="RunManager" selected="Application.OptionalTask">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="budzko.App" />
+      <module name="task-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="budzko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Hello (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="budzko.Hello" />
       <module name="task-java" />
@@ -63,34 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.budzko.Hello" />
-      <module name="task-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.budzko.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hellotest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="budzko.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="budzko.Hellotest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hellotest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Mounth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="budzko.Mounth" />
       <module name="task-java" />
       <extension name="coverage">
         <pattern>
@@ -98,9 +90,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="budzko" />
-      <option name="MAIN_CLASS_NAME" value="budzko.Hellotest" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptionalTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="budzko.OptionalTask" />
+      <module name="task-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="budzko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OptionalTask" />
+        <item itemvalue="Application.Mounth" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.Hello (1)" />
         <item itemvalue="JUnit.Hellotest.Hellotest" />
-        <item itemvalue="Application.Hello" />
-        <item itemvalue="JUnit.Hellotest (1)" />
-        <item itemvalue="JUnit.Hellotest" />
       </list>
     </recent_temporary>
   </component>

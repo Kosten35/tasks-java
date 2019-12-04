@@ -1,4 +1,4 @@
-package budzko;
+package budzko.JFundament;
 import java.io.IOException;
 import java.lang.reflect.Array;
 import java.util.Arrays;
@@ -64,9 +64,7 @@ public class OptionalTask {
                     numb[j] = numb[j+1];
                     numb[j+1]= temp;
                 }
-
             }
-
         }
         int maxLength = numb[n-1].length();
         System.out.println("Числа по возрастанию их длины");
@@ -74,7 +72,5 @@ public class OptionalTask {
             System.out.println(numb[i]);
 
         }
-
-
     }
 }

@@ -1,4 +1,4 @@
-package budzko;
+package budzko.JFundament;
 
 public class Argument {
     public static void main(String[] args) {

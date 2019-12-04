@@ -1,4 +1,4 @@
-package budzko;
+package budzko.JFundament;
 
 /**
  * Hello world!

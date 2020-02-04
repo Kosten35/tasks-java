@@ -25,111 +25,86 @@ public class Book {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public String getNameOfBook() {
         return nameOfBook;
-    }
-
-    public void setNameOfBook(String nameOfBook) {
-        this.nameOfBook = nameOfBook;
     }
 
     public String getAuthor() {
         return author;
     }
 
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
     public String getPublishing() {
         return publishing;
-    }
-
-    public void setPublishing(String publishing) {
-        this.publishing = publishing;
     }
 
     public int getPublicationDate() {
         return publicationDate;
     }
 
-    public void setPublicationDate(int publicationDate) {
-        this.publicationDate = publicationDate;
-    }
-
     public int getNumberOfPages() {
         return numberOfPages;
-    }
-
-    public void setNumberOfPages(int numberOfPages) {
-        this.numberOfPages = numberOfPages;
     }
 
     public double getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
     public String getTypeOfBinding() {
         return typeOfBinding;
     }
 
-    public void setTypeOfBinding(String typeOfBinding) {
-        this.typeOfBinding = typeOfBinding;
+    @Override
+    public String toString() {
+        return "|ID: " + getId() + "|\t"
+                + "|Name: " + getNameOfBook() + "|\t"
+                + "|Author: " + getAuthor() + "|\t"
+                + "|Publishing: " + getPublishing() + "|\t"
+                + "|Publishing date: " + getPublicationDate() + "|\t"
+                + "|Number of pages: " + getNumberOfPages() + "|\t"
+                + "|price: " + getPrice() + "|\t"
+                + "|type of binding: " + getTypeOfBinding();
     }
 
     public void showAuthor() {
         if ("Роман Злотников ".equals(this.getAuthor())) {
-            System.out.println("ID: " + getId());
-            System.out.println("Name of book: " + getNameOfBook());
-            System.out.println("Publishing: " + getPublishing());
-            System.out.println("Publication Date: " + getPublicationDate());
-            System.out.println("Number of pages: " + getNumberOfPages());
-            System.out.println("Price: " + getPrice());
-            System.out.println("Type of binding: " + getTypeOfBinding() + "\n");
-
+            String outputAuthor = "ID: " + getId() + "\n";
+            outputAuthor += "Name of book: " + getNameOfBook() + "\n";
+            outputAuthor += "Publishing: " + getPublishing() + "\n";
+            outputAuthor += "Publication Date: " + getPublicationDate() + "\n";
+            outputAuthor += "Number of pages: " + getNumberOfPages() + "\n";
+            outputAuthor += "Price: " + getPrice() + "\n";
+            outputAuthor +=  "Type of binding: " + getTypeOfBinding() + "\n";
+            System.out.println(outputAuthor);
         }
     }
 
-    @Override
-    public String toString() {
-        String s = "ID: " + getId() + "\t" + "Name: " + getNameOfBook() + "\t" + "Author: " + getAuthor() + "\t" + "Publishing: " + getPublishing() + "\t"
-                + "Publishing date: " + getPublicationDate() + "\t" + "Number of pages: " + getNumberOfPages() + "\t" + "price: " +
-                getPrice() + "\t" + "type of binding: " + getTypeOfBinding();
-        return s;
-    }
+
 
     public void showYear() {
         if ((this.getPublicationDate()) > 2015) {
-            System.out.println("ID: " + getId());
-            System.out.println("Name of book: " + getNameOfBook());
-            System.out.println("Author: " + getAuthor());
-            System.out.println("Publishing: " + getPublishing());
-            System.out.println("Publication Date: " + getPublicationDate());
-            System.out.println("Number of pages: " + getNumberOfPages());
-            System.out.println("Price: " + getPrice());
-            System.out.println("Type of binding: " + getTypeOfBinding() + "\n");
+            String outputYear = "ID: " + getId() + "\n";
+            outputYear += "Name of book: " + getNameOfBook() + "\n";
+            outputYear += "Author: " + getAuthor() + "\n";
+            outputYear += "Publishing: " + getPublishing() + "\n";
+            outputYear += "Publication Date: " + getPublicationDate() + "\n";
+            outputYear += "Number of pages: " + getNumberOfPages() + "\n";
+            outputYear += "Price: " + getPrice() + "\n";
+            outputYear += "Type of binding: " + getTypeOfBinding() + "\n";
+            System.out.println(outputYear);
 
         }
     }
 
     public void showPublishing() {
-        if ("АСТ " == this.getPublishing()) {
-            System.out.println("ID: " + getId());
-            System.out.println("Name of book: " + getNameOfBook());
-            System.out.println("Author: " + getAuthor());
-            System.out.println("Publication Date: " + getPublicationDate());
-            System.out.println("Number of pages: " + getNumberOfPages());
-            System.out.println("Price: " + getPrice());
-            System.out.println("Type of binding: " + getTypeOfBinding() + "\n");
-
+        if ("АСТ".equals(this.getPublishing())) {
+            String outputPublishing = "ID: " + getId()+ "\n";
+            outputPublishing += "Name of book: " + getNameOfBook()+ "\n";
+            outputPublishing += "Author: " + getAuthor()+ "\n";
+            outputPublishing += "Publication Date: " + getPublicationDate()+ "\n";
+            outputPublishing += "Number of pages: " + getNumberOfPages()+ "\n";
+            outputPublishing += "Price: " + getPrice()+ "\n";
+            outputPublishing += "Type of binding: " + getTypeOfBinding() + "\n";
+            System.out.println(outputPublishing);
         }
     }
 }
